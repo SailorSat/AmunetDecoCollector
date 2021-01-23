@@ -1,16 +1,16 @@
 {
-	"name": "Amunets Deco Collector - v0.1.3",
-	"description": "A placeable that \"collects\" nearby decoration placeables and combines them into one.\nAllow packing and unpacking of placeables on-the fly.\n\nThis is highly experimental!\n\nImproves server performance by reducing the number of individual placeable actors.\nImproves client performance by using instanced static meshes for drawing.\n\nThis is supposed to work with any STATIC decoration item.\n\nDoes (currently) NOT work with:\n- multi mesh placeables (like decoration planters)\n- skeletal meshes (like most flags)\n- placeables that change/modify materials\n- anything with interaction like doors, hatches, torches, instruments, traps etc.\n- particles, lights, inventory etc.\n\nComes with prepared item lists for:\n- Conan Exiles + DLCs\n- Dudes Delightful\n- Emberlight\n- GCam\n- NothernTimber\n- SavageSteel\n- ThrallWars DungeonMod\n- Warrior Mutator",
-	"changeNote": "2021-01-21 - v0.1.3\n- initial public release",
+	"name": "Amunets Deco Collector - v0.1.4",
+	"description": "A placeable that \"collects\" nearby decoration placeables and combines them into one.\nAllow packing and unpacking of placeables on-the fly.\n\nThis is highly experimental!\n\nImproves server performance by reducing the number of individual placeable actors.\nImproves client performance by using instanced static meshes for drawing.\n\nThis is supposed to work with any STATIC decoration item.\n\nDoes (currently) NOT work with:\n- skeletal meshes (like most flags)\n- dynamic materials\n- anything with interaction like doors, hatches, torches, instruments, traps etc.\n- particles, lights, inventory etc.\n\nComes with prepared item lists for:\n- Conan Exiles + DLCs\n- Age of Calamitous\n- Dudes Delightful\n- Emberlight\n- GCam\n- NothernTimber\n- SavageSteel\n- ThrallWars DungeonMod\n- Warrior Mutator",
+	"changeNote": "2021-01-23 - v0.1.4\n- added handling for multi mesh placeables\n- added handling for changed materials\n- updated item lists\n- added Age of Calamitous items",
 	"author": "LilMissHentai",
 	"authorUrl": "https://steamcommunity.com/id/sailorsat/",
 	"versionMajor": 0,
 	"versionMinor": 1,
-	"versionBuild": 3,
+	"versionBuild": 4,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2365946321",
 	"steamVisibility": 0,
 	"folderName": "AmunetDecoCollector",
-	"revisionNumber": 265775,
-	"snapshotId": 27373
+	"revisionNumber": 269506,
+	"snapshotId": 27677
 }
