@@ -1,16 +1,16 @@
 {
-	"name": "Amunets Deco Collector - v0.1.9",
-	"description": "A placeable that \"collects\" nearby decoration placeables and combines them into one.\nAllow packing and unpacking of placeables on-the fly.\n\nThis is highly experimental!\n\nImproves server performance by reducing the number of individual placeable actors.\nImproves client performance by using instanced static meshes for drawing.\n\nThis is supposed to work with any STATIC decoration item.\n\nDoes (currently) NOT work with:\n- skeletal meshes (like most flags)\n- dynamic materials\n- anything with interaction like doors, hatches, torches, instruments, traps etc.\n- particles, lights etc.\n\nComes with prepared item lists for:\n- Conan Exiles + DLCs\n- Age of Calamitous\n- Dudes Delightful\n- Emberlight\n- ExilesExtreme\n- GCam\n- LdS-Modpack\n- NothernTimber\n- SavageSteel\n- ThrallWars DungeonMod\n- Warrior Mutator",
-	"changeNote": "2021-02-14 - v0.1.9\n- added support for Ancient Civilization, Desert Town, Deco and Placeables, Shadows of Skelos Extended and Shadows of Skelos 2",
+	"name": "Amunets Deco Collector - v0.1.10",
+	"description": "A placeable that \"collects\" nearby decoration placeables and combines them into one.\nAllow packing and unpacking of placeables on-the fly.\n\nImproves server performance by reducing the number of individual placeable actors.\nImproves client performance by using instanced static meshes for drawing.\n\nThis is supposed to work with any STATIC decoration item, however it uses a whitelist for now.\n\nDoes (currently) NOT support:\n- skeletal meshes (like most flags)\n- anything with interaction like doors, hatches, torches, instruments, traps etc.\n- particles, lights etc.\n\nComes with prepared item lists for:\n- Conan Exiles + DLCs\n- Age of Calamitous\n- Ancient Civilization\n- Deco and Placeables\n- Desert Town\n- Dudes Delightful\n- Emberlight\n- ExilesExtreme\n- GCam\n- LdS-Modpack\n- NothernTimber\n- SavageSteel I & II\n- Shadows of Skelos I & II\n- ThrallWars DungeonMod\n- Warrior Mutator\n\nDiscord @ https://discord.gg/a8hGAKW",
+	"changeNote": "2021-03-16 - v0.1.10\n- better compression and faster replication.\n- updated a bunch of vanilla materials to allow instancing. this allows even more stuff to be compressed, but bloats the mod a little.\n- updated itemlists for Conan Exiles, DLCs and Dudes Delightful.",
 	"author": "LilMissHentai",
 	"authorUrl": "https://steamcommunity.com/id/sailorsat/",
 	"versionMajor": 0,
 	"versionMinor": 1,
-	"versionBuild": 9,
+	"versionBuild": 10,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2365946321",
 	"steamVisibility": 0,
 	"folderName": "AmunetDecoCollector",
-	"revisionNumber": 269506,
-	"snapshotId": 27677
+	"revisionNumber": 279274,
+	"snapshotId": 28446
 }
