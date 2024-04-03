@@ -1,18 +1,18 @@
 {
-	"name": "Amunets Deco Collector - v0.1.54",
+	"name": "Amunets Deco Collector - v0.1.55",
 	"description": "Mod-ID: 2365946321\n\nA placeable that \"collects\" nearby decoration placeables and combines them into one.\nAllow packing and unpacking of placeables on-the fly.\n\nImproves server performance by reducing the number of individual placeable actors.\nImproves client performance by using instanced static meshes for drawing.\n\nTo unpack all items, hold the Interact-Key (default E) on the 'ADC Placeable' object and select \"unpack all\".\nTo unpack indivudual items, holt the Interact-Key on the Object you want to unpack and choose \"Interact\".\n\nThis is supposed to work with any STATIC decoration item, however it uses a whitelist for now.\n\nDoes (currently) NOT support:\n- skeletal meshes (like most flags)\n- most stuff with specific interactions like doors, hatches, torches, instruments, traps etc.\n- particles, lights etc.\n\nSupports close to 13500 items from:\n- Conan Exiles + DLCs\n- Abyss - Modpack\n- Abyss - Immersive Dekorationen (AID)\n- AG - Architecture\n- Age of Calamitous\n- Ancient Civilization\n- Arbre Decoration\n- Arcadia - Fantasy Buildings and Decorations\n- Askenderu Oriental Mod\n- Asshuri Treasures\n- Bertrams Servermod\n- Beyond Decor\n- Beyond Decor: Rustic Edition\n- Cathedrals\n- Coffre /Rangement /Decoration\n- Crafty Counters\n- Crucial Decorations\n- Dark Desires\n- Deco and Placeables\n- Desert Town\n- Die Zuflucht Mod\n- Das letzte Kapitel: Decorations\n- Dudes Delightful Decorations\n- DungeonMasterTools\n- Eastern Exiles\n- Emberlight\n- Exiled Lands Improved\n- ExilesExtreme\n- Fachwerk\n- GCam\n- Gothic Architecture\n- Happy Little Trees & more\n- Heathen Trinkets\n- Highmane's Arsenal\n- IMMERSE RP: Buildings & Placeables Decor & IMMERSE RP: Placables Decor\n- IMMERSE RP: Festive Days\n- IMMERSE RP: Fright Night\n- Jungle Building Set\n- KDR unchained\n- LBPR - Additional Features\n- Legenden-der-Wueste -ITEMS-\n- Lore_Items_and_Roleplay\n- Lotus Roleplay Decor & More\n- Lotus Variety Mod\n- LTs Farming\n- Moon Wildlife\n- MSCasaDesFlores\n- NothernTimber\n- Ooga Booga Mod\n- Professions\n- Pythagoras\n- River_ Boats_of_ the_Exiled_Lands\n- SavageSteel I & II\n- Shadows of Skelos Extended, II & III\n- Shanis Stuff\n- SH - Decorations\n- stone statues\n- Thrall War Decorationss\n- Thrall War Dungeon Mod\n- Warrior Mutator\n- Tales of Azeroth\n- Terra Mystica Roleplay Mod\n- The sapphire exile (LCDA map)\n\nDiscord @ https://discord.gg/a8hGAKW\nPatreon @ https://www.patreon.com/sailorsat\n\nFor MS-Store users - read [url=https://forums.funcom.com/t/for-ms-store-how-to-get-mods-off-the-steam-workshop-without-a-steam-account/174325]this[/url].",
-	"changeNote": "2024-01-xx - Amunets Deco Collector v0.1.54\n- something something new...",
+	"changeNote": "2024-04-03 - Amunets Deco Collector v0.1.55\n- something something new... AoWC4",
 	"author": "LilMissHentai",
 	"authorUrl": "https://steamcommunity.com/id/sailorsat/",
 	"versionMajor": 0,
 	"versionMinor": 1,
-	"versionBuild": 54,
+	"versionBuild": 55,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2365946321",
 	"steamTestLivePublishedFileId": "2856044146",
 	"steamVisibility": 0,
 	"folderName": "AmunetDecoCollector",
-	"revisionNumber": 622975,
-	"snapshotId": 39737,
+	"revisionNumber": 738062,
+	"snapshotId": 40768,
 	"fileSize": -2
 }
